@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empanadería La Chilena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>La Chilena</h1>
+        <nav>
+            <button>Catálogo</button>
+            <button>Registrarse</button>
+            <button>Ingresar</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="catalogo">
+            <h2>Nuestras Empanadas</h2>
+            <div id="lista-productos"></div>
+        </section>
+
+        <section id="registro">
+            <h2>Registro de Cliente</h2>
+            <form id="form-registro">
+                <input type="text" id="run" placeholder="RUN" required>
+                <input type="text" id="nombre" placeholder="Nombre Completo" required>
+                <input type="email" id="correo" placeholder="Correo Electrónico" required>
+                <input type="text" id="telefono" placeholder="Teléfono" required>
+                <button type="submit">Registrar y Validar Correo</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
